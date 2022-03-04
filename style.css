@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: aliceblue;
+}
+
+.cabecalho {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.maincabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 0.4px solid #ff0000;
+}
+
+.cabecalho-botao {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+
+.cabecalho-botao:hover {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 200px;
+    gap: 40px;
+    margin-left: 50px;
+}
+
+.myname {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(46, 46, 46);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.negrito-myname {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1500;
+}
+
+.story {
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: rgb(63, 63, 63);
+}
+
+.pe {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.hello {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(170, 170, 170);
+}
+
+.botao-cv {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 200px;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    color: azure;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao-cv:hover {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 200px;
+    padding: 10px;
+    background-color: rgb(141, 0, 0);
+    color: azure;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.projeto01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.corpo-projeto01 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.title-projeto01 {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 25px;
+}
+
+.negrito-projeto {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+.main-projeto01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.form-camp {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.form-campmsg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    padding: 5px;
+    margin: 5px;
+    height: 200px;
+    width: 400px;
+}
+
+.botao-enviar {
+    border: none;
+    width: 50px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.botao-enviar:hover {
+    border: none;
+    width: 50px;
+    height: 20px;
+    color: gray;
+}
+
+.divform {
+    font-family: 'Roboto', sans-serif;
+}
+
+.entre-contato {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.form-msg {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+}
